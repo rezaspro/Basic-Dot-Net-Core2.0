@@ -1,0 +1,11 @@
+C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\bin\Debug\netcoreapp2.0\BasicDotNetCore.deps.json
+C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\bin\Debug\netcoreapp2.0\BasicDotNetCore.runtimeconfig.json
+C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\bin\Debug\netcoreapp2.0\BasicDotNetCore.runtimeconfig.dev.json
+C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\bin\Debug\netcoreapp2.0\BasicDotNetCore.dll
+C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\bin\Debug\netcoreapp2.0\BasicDotNetCore.pdb
+C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.csprojResolveAssemblyReference.cache
+C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.csproj.CoreCompileInputs.cache
+C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.AssemblyInfoInputs.cache
+C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.AssemblyInfo.cs
+C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.dll
+C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.pdb

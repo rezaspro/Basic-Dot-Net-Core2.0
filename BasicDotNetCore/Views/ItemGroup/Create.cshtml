@@ -1,0 +1,56 @@
+﻿@using BasicDotNetCore
+@model BasicDotNetCore.Models.ItemGroup
+
+
+
+<form asp-action="Create" asp-controller="ItemGroup">
+    <input asp-for="Name" class="form-control" />
+
+    <br />
+    <button type="submit" class="btn btn-primary">Save</button>
+
+    <br />
+    <br />
+    <br />
+    <div>
+        <label>Country Search</label>
+        <input id="itemSearch" class="form-control" />
+
+    </div>
+
+</form>
+
+
+@section Scripts{
+
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#itemSearch").autocomplete({
+                source: function (request, response) {
+                    $.ajax({
+                        url: '@Url.Action("LoadItem","ItemGroup")',
+                        dataType: 'json',
+                        data: { search: $("#itemSearch").val() },
+                        success: function (Data) {
+                            //var r = JSON.parse(data);
+                            console.log(Data);
+                            response($.map(Data, function (item) {
+                                console.log(item.Name)
+                                return { label: item.Name, value:item.Name }
+                            }));
+                        }
+
+                    });
+                }
+            });
+            console.log("ready");
+        });
+
+    </script>
+}

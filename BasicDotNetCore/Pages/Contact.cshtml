@@ -1,0 +1,50 @@
+﻿@page
+@model ContactModel
+@{
+    ViewData["Title"] = "Contact";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@Model.Message</h3>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <input type="button" class="btn btn-outline btn-success btn-xs" onclick="printElem('PrintDiv')" value="Print" />
+    </div>
+    <div class="panel-body">
+        <div id="PrintDiv">
+            <address>
+                <span style="font-family:'Times New Roman'; font-weight:100" >Microsoft Way</span> <br />
+                Redmond, WA 98052-6399<br />
+                <abbr title="Phone">P:</abbr>
+                425.555.0100
+            </address>
+
+            <address>
+                <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
+                <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+            </address>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    function printElem(divId) {
+        //var tocContent = document.getElementById(tocId).innerHTML;
+        var content = document.getElementById(divId).innerHTML;
+        var mywindow = window.open('', 'Print');
+
+        mywindow.document.write('<html><head><title> TEST</title>');
+        mywindow.document.write('</head><body >');
+        mywindow.document.write('<h1 style="text-align:center; margin-top: 15vh;"></h1>');
+        mywindow.document.write(content);
+        mywindow.document.write('</body></html>');
+
+        mywindow.document.close();
+        mywindow.focus();
+        mywindow.print();
+        mywindow.close();
+        return true;
+    }
+</script>
