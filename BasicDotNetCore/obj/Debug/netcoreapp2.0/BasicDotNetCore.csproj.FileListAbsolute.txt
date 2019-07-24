@@ -9,3 +9,14 @@ C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\obj\Debug\netcoreapp2.0\
 C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.AssemblyInfo.cs
 C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.dll
 C:\Users\shakil\Desktop\BasicDotNetCore\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.pdb
+E:\SourceCode\Basic-Dot-Net-Core2.0\BasicDotNetCore\bin\Debug\netcoreapp2.0\BasicDotNetCore.deps.json
+E:\SourceCode\Basic-Dot-Net-Core2.0\BasicDotNetCore\bin\Debug\netcoreapp2.0\BasicDotNetCore.runtimeconfig.json
+E:\SourceCode\Basic-Dot-Net-Core2.0\BasicDotNetCore\bin\Debug\netcoreapp2.0\BasicDotNetCore.runtimeconfig.dev.json
+E:\SourceCode\Basic-Dot-Net-Core2.0\BasicDotNetCore\bin\Debug\netcoreapp2.0\BasicDotNetCore.dll
+E:\SourceCode\Basic-Dot-Net-Core2.0\BasicDotNetCore\bin\Debug\netcoreapp2.0\BasicDotNetCore.pdb
+E:\SourceCode\Basic-Dot-Net-Core2.0\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.csprojAssemblyReference.cache
+E:\SourceCode\Basic-Dot-Net-Core2.0\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.csproj.CoreCompileInputs.cache
+E:\SourceCode\Basic-Dot-Net-Core2.0\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.AssemblyInfoInputs.cache
+E:\SourceCode\Basic-Dot-Net-Core2.0\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.AssemblyInfo.cs
+E:\SourceCode\Basic-Dot-Net-Core2.0\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.dll
+E:\SourceCode\Basic-Dot-Net-Core2.0\BasicDotNetCore\obj\Debug\netcoreapp2.0\BasicDotNetCore.pdb
